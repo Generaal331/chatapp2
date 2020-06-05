@@ -23,6 +23,10 @@ app.get('/css', (req, res) => {
     res.sendFile(__dirname + '/public/css.html');
 });
 
+app.get('/login', (req, res) => {
+    res.sendFile(__dirname + '/public/login.html');
+});
+
 // tech namespace 
 const tech = io.of('/tech');
 
