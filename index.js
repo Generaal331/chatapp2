@@ -23,7 +23,7 @@ app.get('/css', (req, res) => {
     res.sendFile(__dirname + '/public/css.html');
 });
 
-app.get('/css', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/user.html');
 });
 
