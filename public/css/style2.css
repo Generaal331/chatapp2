@@ -1,0 +1,61 @@
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #1a1a1a;
+    border-radius:  30px;
+    margin-top: 0px;
+}
+
+
+#container {
+    background-color: darkgray;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  content-wrap {
+    padding-bottom: 2.5rem;    
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;  
+    background-color: #1a1a1a;    
+    border-radius:  30px;      
+  }
+
+h1{
+    color: white;
+}
+
+#login{
+    margin-top: 0px;
+    margin-left: 0;
+    width: 600px;
+    height: 500px;
+    background-color: #1f2e2e;
+}
+
+    #title{
+      margin-left: 50px;
+      margin-top: 200px;  
+    }
+
+    .knop1{
+      width: 150px;
+      height: 30px;
+      border-radius:  30px;
+      border: 1px solid black;
+      margin-left: 600px;
+      background-color: #00FFFF;
+    }
+
+    .knop2{
+      margin-top: 50px;
+    }
+
+    .knop3{
+      margin-left: 30px;
+    }
