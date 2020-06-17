@@ -46,34 +46,34 @@ h1{
     #link1 {
         margin-top: -50px;
         text-align: center;
+        margin-left: 70% ;
+        border-radius: 50px 50px 50px 50px;
         font-size: 20px;
         width: 90px;
         background-color: #1A78D1;
         color: white;
-        margin-left: 70% ;
-        border-radius: 50px 50px 50px 50px;
       }
       
       #link2 {
         margin-top: -25px;
         text-align: center;
+        margin-left: 80% ;
+        border-radius: 50px 50px 50px 50px;
         font-size: 20px;
         width: 90px;
         background-color: #CCCCCC;
         color: black;
-        margin-left: 80% ;
-        border-radius: 50px 50px 50px 50px;
       }
       
       #link3 {
         margin-top: -30px;
         text-align: center;
+        margin-left: 90% ;
+        border-radius: 50px 50px 50px 50px;
         font-size: 20px;
         width: 90px;
         background-color: #1A78D1;
         color: white;
-        margin-left: 90% ;
-        border-radius: 50px 50px 50px 50px;
       }
 
       #useronline{
