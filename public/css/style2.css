@@ -53,7 +53,7 @@ h1{
       }
       
       #link2 {
-        margin-top: -20px;
+        margin-top: -25px;
         text-align: center;
         font-size: 20px;
         width: 80px;
@@ -63,11 +63,19 @@ h1{
       }
       
       #link3 {
-        margin-top: -50px;
+        margin-top: -30px;
         text-align: center;
         font-size: 20px;
         width: 80px;
         background-color: #1A78D1;
         margin-left: 90% ;
         border-radius: 50px 50px 50px 50px;
+      }
+
+      #useronline{
+         color: white;
+         font-size: 20px;
+         margin-top: 30px;
+         margin-left: 50px;
+         
       }
