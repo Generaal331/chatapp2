@@ -62,7 +62,8 @@ h1{
 
 
       #useronline{
-        margin-top: -21px;
+        margin-top: 50px;
         text-align: center;
-        font-size: 150%;
+        font-size: 40px;
+        color: white;
       }
