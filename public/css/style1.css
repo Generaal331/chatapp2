@@ -1,0 +1,43 @@
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #1a1a1a;
+    border-radius:  30px;
+}
+
+container {
+  background-color: darkgray;
+  position: relative;
+  min-height: 100vh;
+}
+
+content-wrap {
+  padding-bottom: 2.5rem;    
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;  
+  background-color: #1a1a1a;          
+}
+
+h1{
+    color: white;
+}
+
+#login{
+    margin-top: 200px;
+    margin-left: 400px;
+    width: 250px;
+    height: 40px;
+    background-color: #1f2e2e;
+    border-radius:  30px;
+
+    #title{
+      margin-left: 0px;
+      margin-top: 100px;  
+    }
+
+}
