@@ -34,6 +34,11 @@ app.get('/login', (req, res) => {
     res.sendFile(__dirname + '/public/login.html');
 });
 
+app.get('/login', (req, res) => {
+    res.sendFile(__dirname + '/public/login1.html');
+});
+
+
 // tech namespace 
 const tech = io.of('/tech');
 
