@@ -179,6 +179,10 @@ h1{
           width: 10px;
           height: 10px;
         }
+
+        .icon{
+          display: all;
+        }
       
         form { padding: 20px; position: right; margin-top: 490px; margin-left: 20px; width: 100%; padding-right: 50px;}
 
