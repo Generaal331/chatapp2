@@ -94,4 +94,21 @@ h1{
       #messages { list-style-type: none; margin-left: 1100px; margin-top: 500px; padding: 0; width: 60%;}
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #F0F8FF;} 
+
+
+      @media only screen and (max-width: 450px) {
+        #container {
+          background-color: #1f2e2e;
+        }
+
+        #messages{
+          margin-left: -200px;
+        }
+
+        #login{
+          width: 10px;
+          height: 10px;
+        }
       
+      
+    }

@@ -10,6 +10,7 @@ header{
   background-color: darkgray;
   position: relative;
   min-height: 100vh;
+  max-width:1809px;
 }
 
 content-wrap {
@@ -68,4 +69,26 @@ p{
     margin-left: 400px;
     margin-top: -20px;
 }
+
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: 1f2e2e ;
+    }
+
+    #login{
+        margin-top: 120px;
+        margin-left: 400px;
+        width: 250px;
+        height: 40px;
+        background-color: #2F4F4F;
+        border-radius:  30px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+
+  }
 
