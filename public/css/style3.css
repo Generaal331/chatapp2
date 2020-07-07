@@ -247,4 +247,12 @@ h1{
           background-color: #1A78D1;
           color: white;
         }
+
+        ..button{
+          display: none;
+        }
+
+        .button4{
+          display: none;
+        }
     }
