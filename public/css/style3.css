@@ -39,7 +39,7 @@ h1{
     margin-top: 0px;
     margin-left: 0;
     width: 400px;
-    height: 500px;
+    height: 530px;
     background-color: #1f2e2e;
     display: inline-block;
 }
@@ -96,7 +96,7 @@ h1{
 
 
       form { padding: 20px; position: right; bottom: 400px; margin-left: 400px; width: 100%; padding-right: 50px;}
-      #messages { list-style-type: none; margin-left: 1100px; margin-top: -600px; padding: 0; width: 60%;}
+      #messages { list-style-type: none; margin-left: 1100px; margin-top: -500px; padding: 0; width: 60%;}
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #F0F8FF;} 
 
