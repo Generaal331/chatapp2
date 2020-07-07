@@ -296,6 +296,38 @@ h1{
         background-color: #1f2e2e;
         display: inline-block;
       }
+
+      .button7 {
+        background-color: white; 
+        color: black; 
+        border: 1px solid black;
+      }
+
+      .button7:hover {
+        background-color: #00ace6;
+        color: #3d5c5c;
+      }
+
+      .button8 {
+        background-color: #00ace6; 
+        border: none;
+        color: white;
+        padding: 40px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 50px;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+      }
+      
+      
       
 
     }
