@@ -160,9 +160,7 @@ h1{
         border-top-right-radius: 30px;
       }
 
-      .icon{
-        display: none;
-      }
+      
 
       @media only screen and (max-width: 450px) {
         #container {
@@ -180,9 +178,7 @@ h1{
           height: 10px;
         }
 
-        .icon{
-          display: inline;
-        }
+        
       
         form { padding: 20px; position: right; margin-top: 490px; margin-left: 20px; width: 100%; padding-right: 50px;}
 
