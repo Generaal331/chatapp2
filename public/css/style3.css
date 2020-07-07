@@ -160,6 +160,10 @@ h1{
         border-top-right-radius: 30px;
       }
 
+      .topnav{
+        display: none;
+      }
+
       @media only screen and (max-width: 450px) {
         #container {
           background-color: #293d3d;
