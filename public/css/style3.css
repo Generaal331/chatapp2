@@ -163,7 +163,7 @@ h1{
       @media only screen and (max-width: 450px) {
         #container {
           background-color: #293d3d;
-          width: 700px;
+          height: 700px;
         }
 
         #messages{
