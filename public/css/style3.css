@@ -104,7 +104,7 @@ h1{
         background-color: #3d5c5c; 
         border: none;
         color: white;
-        padding: 50px 42px;
+        padding: 70px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -114,14 +114,14 @@ h1{
         cursor: pointer;
         margin-top: 10px;
         margin-left: 100px;
-        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
       }
 
       .button2 {
         background-color: white; 
-        color: black; 
+        color: #00ace6; 
         border: 2px solid #008CBA;
       }
       
@@ -142,10 +142,10 @@ h1{
       }
 
       .button4 {
-        background-color: #4CAF50; /* Green */
+        background-color: #00ace6; 
         border: none;
         color: white;
-        padding: 50px 42px;
+        padding: 70px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -155,7 +155,7 @@ h1{
         cursor: pointer;
         margin-top: 10px;
         margin-left: 100px;
-        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
       }
