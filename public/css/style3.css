@@ -110,8 +110,6 @@ h1{
           height: 10px;
         }
       
-        .input-group{
-          margin-left: -200px;
-        }
+        form { padding: 20px; position: right; bottom: 400px; margin-left: 100px; width: 100%; padding-right: 50px;}
       
     }
