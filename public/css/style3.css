@@ -13,6 +13,9 @@ header{
     min-height: 100vh;
   }
 
+  body{
+    max-width: 2049px;
+  }
   content-wrap {
     padding-bottom: 2.5rem;    
   }
