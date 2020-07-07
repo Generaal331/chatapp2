@@ -113,7 +113,7 @@ h1{
         form { padding: 20px; position: right; bottom: -200px; margin-left: 20px; width: 100%; padding-right: 50px;}
 
 
-        
+
       
         .topnav {
           overflow: hidden;
@@ -148,6 +148,39 @@ h1{
         
         .active {
           background-color: #4CAF50;
+          color: white;
+        }
+
+        #link1 {
+          margin-top: 5px;
+          text-align: center;
+          margin-left: 70% ;
+          border-radius: 50px 50px 50px 50px;
+          font-size: 20px;
+          width: 90px;
+          background-color: #1A78D1;
+          color: white;
+        }
+        
+        #link2 {
+          margin-top: 5px;
+          text-align: center;
+          margin-left: 80% ;
+          border-radius: 50px 50px 50px 50px;
+          font-size: 20px;
+          width: 90px;
+          background-color: #CCCCCC;
+          color: black;
+        }
+        
+        #link3 {
+          margin-top: 5px;
+          text-align: center;
+          margin-left: 90% ;
+          border-radius: 50px 50px 50px 50px;
+          font-size: 20px;
+          width: 90px;
+          background-color: #1A78D1;
           color: white;
         }
     }
