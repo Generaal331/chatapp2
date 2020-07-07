@@ -110,5 +110,8 @@ h1{
           height: 10px;
         }
       
+        .input-group{
+          margin-left: 50px;
+        }
       
     }
