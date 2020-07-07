@@ -44,6 +44,15 @@ h1{
     display: inline-block;
 }
 
+#login1{
+  margin-top: -3px;
+  margin-left: 0;
+  width: 400px;
+  height: 552px;
+  background-color: #1f2e2e;
+  display: inline-block;
+}
+
     #title{
       margin-left: 50px;  
       padding-top: 30px;
