@@ -228,6 +228,7 @@ h1{
           font-size: 20px;
           width: 400px;
           background-color: #1A78D1;
+          border-radius: 0px 0px 0px 0px;
           color: white;
         }
         
@@ -237,6 +238,7 @@ h1{
           font-size: 20px;
           width: 400px;
           background-color: #CCCCCC;
+          border-radius: 0px 0px 0px 0px;
           color: black;
           margin-top: 5px;
         }
@@ -248,6 +250,7 @@ h1{
           font-size: 20px;
           width: 400px;
           background-color: #1A78D1;
+          border-radius: 0px 0px 0px 0px;
           color: white;
         }
 
