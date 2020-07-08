@@ -222,6 +222,7 @@ h1{
         }
 
         #link1 {
+          margin-top: 5px;
           margin-left: 0px;
           text-align: center;
           font-size: 20px;
@@ -237,12 +238,12 @@ h1{
           width: 400px;
           background-color: #CCCCCC;
           color: black;
-          margin-top: 2x;
+          margin-top: 5px;
         }
         
         #link3 {
           margin-left: 0px;
-          margin-top: 2x;
+          margin-top: 5xp;
           text-align: center;
           font-size: 20px;
           width: 400px;
