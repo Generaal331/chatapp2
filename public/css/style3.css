@@ -167,13 +167,72 @@ h1{
 
       #login3{
         margin-top: 50px;
-        margin-left: 600px;
+        margin-left: 500px;
         width: 400px;
         height: 500px;
         display: inline-block;
         background-color: #3d5c5c;
       }
+      
+      .button5 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid black;
+      }
 
+      .button5:hover {
+        background-color: #00ace6;
+        color: #3d5c5c;
+      }
+
+      .button6 {
+        background-color: #293d3d; 
+        border: none;
+        color: white;
+        padding: 30px 100px;
+        text-align: left;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 17px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 5px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+      }
+
+      .button7 {
+        background-color: #00ace6; 
+        color: black; 
+        border: 1px solid black;
+      }
+
+      .button7:hover {
+        background-color: #00ace6;
+        color: white;
+      }
+
+      .button8 {
+        background-color: #293d3d; 
+        border: none;
+        color: white;
+        padding: 30px 110px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 17px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 5px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+      }
       
 
       @media only screen and (max-width: 450px) {
