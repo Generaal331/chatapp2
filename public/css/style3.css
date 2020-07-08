@@ -99,7 +99,7 @@ h1{
 
 
       form { padding: 20px; position: right; bottom: 400px; margin-left: 400px; width: 100%; padding-right: 50px;}
-      #messages { list-style-type: none; margin-left: 600px; margin-top: -550px; padding: 0; width: 40%;}
+      #messages { list-style-type: none; margin-left: 700px; margin-top: -550px; padding: 0; width: 40%;}
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #F0F8FF;} 
 
