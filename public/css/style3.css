@@ -173,6 +173,7 @@ h1{
         #messages{
           margin-top: 50px;
           margin-left: 10px;
+          position: relative;
         }
 
         #login{
