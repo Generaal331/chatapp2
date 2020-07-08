@@ -290,9 +290,9 @@ h1{
         cursor: pointer;
         margin-top: 5px;
         margin-left: 50px;
-        border-bottom-left-radius: 30px;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
       }
       
       #login3{
@@ -328,9 +328,9 @@ h1{
         cursor: pointer;
         margin-top: 5px;
         margin-left: 50px;
-        border-bottom-left-radius: 30px;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
       }
       
       
