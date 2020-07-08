@@ -6,6 +6,27 @@ header{
     margin-top: 0px;
 }
 
+footer {
+    position: absolute;
+    width: 100%;
+    height: 5.0rem;  
+    background-color: #1a1a1a;    
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;   
+    opacity: 0.5;   
+    position: absolute; 
+          bottom: 0px; position: relative; position: fixed;
+  }
+
+  header{
+    width: 100%;
+    height: 120px;
+    background-color: #1a1a1a;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 0px;
+}
+
 #container {
   background-color: darkgray;
   position: relative;
@@ -88,6 +109,14 @@ p{
         text-align: center;
         
     }
+
+    #container {
+        background-color: #293d3d;
+        height: 700px;
+      }
+    
+
+
 
 
   }
