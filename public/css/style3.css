@@ -277,19 +277,19 @@ h1{
       }
 
       .button6 {
-        background-color: #1f2e2e; 
+        background-color: #293d3d; 
         border: none;
         color: white;
-        padding: 40px 100px;
+        padding: 30px 20px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 17px;
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
         margin-top: 5px;
-        margin-left: 50px;
+        margin-left: 5px;
         border-bottom-left-radius: 0px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
@@ -315,19 +315,19 @@ h1{
       }
 
       .button8 {
-        background-color: #1f2e2e; 
+        background-color: #293d3d; 
         border: none;
         color: white;
-        padding: 40px 120px;
+        padding: 30px 20px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 17px;
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
         margin-top: 5px;
-        margin-left: 50px;
+        margin-left: 5px;
         border-bottom-left-radius: 0px;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
