@@ -77,7 +77,7 @@ p{
 }
 
 input[type=text], select {
-    width: 250px;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -85,15 +85,16 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
     border-radius:  30px;
+    background-color: #1f2e2e;
   }
   
   input[type=submit] {
-    width: 30px;
-    background-color: #4CAF50;
-    color: #1f2e2e;
+    width: 50px;
+    background-color: blue;
+    color: white;
     padding: 14px 20px;
-    margin-left: 100px;
-    margin-top: -30px;
+    margin-left: 300px;
+    margin-top: -100px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
