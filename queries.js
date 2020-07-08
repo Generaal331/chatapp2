@@ -1,33 +1,60 @@
+CREATE TABLE chats (
+    user_id SERIAL PRIMARY KEY,
+    user_name VARCHAR(255),
+    room VARCHAR(255),
+    chat_text TEXT,
+     date_time TIMESTAMP
+);
+
+ SELECT * FROM chats;
 const pg = require('pg');
 const process_db = require('dotenv').config();
 const db_url = process.env.DATABASE_URL || process_db.parsed.DB_URL;
 const client = new pg.Client({
     connectionString: db_url,
-    ssl: { rejectUnauthorized: false}
+    ssl: { rejectUnauthorized: false }
 });
-client.connect(); 
+client.connect();
 
-const insertChart = (request) =>{
+const checkUser =   (user) => {
+    return new Promise((resolve, reject) => {
+        client.query("SELECT * FROM users WHERE user = '"+user+"';")
+        .then(result => {
+            if(result.rows.lenght > 0){
+                returnValue = false;
+            }else{
+                returnValue = true;
+            }
+            resolve(returnValue);
+        })
+        .catch(e => console.error(e.stack))
+    });
+}
+
+    
+const getChats = (roomName) => {
+    
+    return new Promise((resolve, reject) => {
+        client.query("SELECT * FROM chats WHERE room = '"+roomName+"' ORDER BY date_time ASC;")
+        .then(result => {
+            resolve(result.rows);
+        })
+        .catch(e => console.error(e.stack))
+    });
+}
+
+const insertChats = (request) => {
     const data = request;
 
-    client.query('INSERT INTO chats (user_name, room, chat_text, date_time) VALUES ($1, $2, $3, NOW())',
-    [date.name, date.room, date.text], (error, results) => {
-        if(error) {
-            throw error
-        }
-        console.log('Chat added to room: ${data.room}');
+    client.query('INSERT INTO chats (user_name, room, chat_text, date_time) VALUES ($1, $2, $3, NOW())', [data.user, data.room, data.msg], (error, results) => {
+      if (error) {
+        throw error
+      }
+      console.log(`Chat added to room: ${data.room}`);
     })
 }
 
-const getChats = new Promise((resolve, reject) => {
-    pg.Client.query('SELECT * FROM chats')
-    .then(result =>{
-        resolve(result.rows);
-    })
-    .catch(e => console.error(e.stack))
-});
-
-module.exports ={
+module.exports = {
     getChats,
     insertChats
 }
