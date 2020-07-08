@@ -87,3 +87,175 @@ h1{
       a {
         color: white;
       }
+
+
+      @media only screen and (max-width: 450px) {
+        #container {
+          background-color: #293d3d;
+          height: 700px;
+        }
+
+        #messages{
+          margin-top: 50px;
+          margin-left: 10px;
+        }
+
+        #login{
+          width: 10px;
+          height: 10px;
+        }
+
+        
+      
+        form { padding: 20px; position: right; margin-top: 490px; margin-left: 20px; width: 100%; padding-right: 50px;}
+
+
+
+      
+        .topnav {
+          overflow: hidden;
+          position: relative;
+        }
+        
+        .topnav #myLinks {
+          display: none;
+        }
+        
+        .topnav a {
+          color: white;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          display: block;
+        }
+        
+        .topnav a.icon {
+          background: black;
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .active {
+          background-color: #4CAF50;
+          color: white;
+        }
+
+        #link1 {
+          margin-top: 5px;
+          margin-left: 0px;
+          text-align: center;
+          font-size: 20px;
+          width: 400px;
+          background-color: #1A78D1;
+          border-radius: 0px 0px 0px 0px;
+          color: white;
+          height: 70px;
+        }
+        
+        #link2 {
+          margin-left: 0px;
+          text-align: center;
+          font-size: 20px;
+          width: 400px;
+          background-color: #1A78D1;
+          border-radius: 0px 0px 0px 0px;
+          color: black;
+          margin-top: 5px;
+          height: 70px;
+        }
+        
+        #link3 {
+          margin-left: 0px;
+          margin-top: 5px;
+          text-align: center;
+          font-size: 20px;
+          width: 400px;
+          background-color: #1A78D1;
+          border-radius: 0px 0px 0px 0px;
+          color: white;
+          height: 70px;
+        }
+
+       #login{
+         display: none;
+       }
+
+       .button5 {
+        background-color: white; 
+        color: black; 
+        border: 1px solid black;
+      }
+
+      .button5:hover {
+        background-color: #00ace6;
+        color: #3d5c5c;
+      }
+
+      .button6 {
+        background-color: #00ace6; 
+        border: none;
+        color: white;
+        padding: 40px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 50px;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+      }
+      
+      #login3{
+        margin-top: -3px;
+        margin-left: 0;
+        width: 400px;
+        height: 552px;
+        display: inline-block;
+      }
+
+      .button7 {
+        background-color: white; 
+        color: black; 
+        border: 1px solid black;
+      }
+
+      .button7:hover {
+        background-color: #00ace6;
+        color: #3d5c5c;
+      }
+
+      .button8 {
+        background-color: #1f2e2e; 
+        border: none;
+        color: white;
+        padding: 40px 120px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 50px;
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+      }
+      
+      
+      
+
+    }
