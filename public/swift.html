@@ -62,24 +62,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script>
-      const room = 'swift';
+      const room = 'javascript';
       const socket = io('/tech');
-      $('form').submit(() =>{
+      $('form').submit(() => {
         let msg = $('#m').val();
-        socket.emit('message',{msg, room} );
-        $('#').val('');
+        socket.emit('message', { msg, room });
+        $('#m').val('');
         return false;
       });
 
       socket.on('connect', () => {
         // emiting to everybody
-        socket.emit('join', {room: room});
+        socket.emit('join', { room: room });
       })
 
       socket.on('message', (msg) => {
         $('#messages').append($('<li>').text(msg));
       })
-      
     </script>
 
     <script>
