@@ -10,7 +10,7 @@ server.listen(port, () => {
 
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
+app.get('/login', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');
 });
 
@@ -30,8 +30,8 @@ app.get('/user', (req, res) => {
     res.sendFile(__dirname + '/public/user.html');
 });
 
-app.get('/login', (req, res) => {
-    res.sendFile(__dirname + '/public/login.html');
+app.get('/rooms', (req, res) => {
+    res.sendFile(__dirname + '/public/rooms.html');
 });
 
 app.get('/login1', (req, res) => {
