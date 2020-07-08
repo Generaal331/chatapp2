@@ -255,7 +255,9 @@ h1{
         border-top-right-radius: 30px;
       }
       
-      
+      #useronline{
+        display: none;
+      }
       
 
     }
