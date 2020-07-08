@@ -280,8 +280,8 @@ h1{
         background-color: #293d3d; 
         border: none;
         color: white;
-        padding: 30px 20px;
-        text-align: center;
+        padding: 30px 100px;
+        text-align: left;
         text-decoration: none;
         display: inline-block;
         font-size: 17px;
@@ -318,7 +318,7 @@ h1{
         background-color: #293d3d; 
         border: none;
         color: white;
-        padding: 30px 20px;
+        padding: 30px 110px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
