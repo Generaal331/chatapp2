@@ -98,7 +98,9 @@ h1{
       }
 
 
-      form { padding: 20px; position: right; bottom: 400px; margin-left: 400px; width: 100%; padding-right: 50px;}
+      form { padding: 20px; position: right; bottom: 400px; margin-left: 450px; width: 100%; padding-right: 50px; border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px; border-top-right-radius: 30px;
+        border-top-left-radius: 30px;}
       #messages { list-style-type: none; margin-left: 700px; margin-top: -550px; padding: 0; width: 40%;}
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #F0F8FF;} 
