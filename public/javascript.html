@@ -69,24 +69,23 @@
     <script src="/socket.io/socket.io.js"></script>
     <script>
       const room = 'javascript';
-      const socket = io('/tech');
-      $('form').submit(() => {
-        let msg = $('#m').val();
-        socket.emit('message', { msg, room });
-        $('#m').val('');
-        return false;
-      });
+         const socket = io('/tech');
+        $('form').submit(() => {
+             let msg = $('#m').val();
+             socket.emit('message', { msg, room });
+             $('#m').val('');
+           return false;
+         });
 
-      socket.on('connect', () => {
-        // emiting to everybody
-        socket.emit('join', { room: room });
-      })
+         socket.on('connect', () => {
+             emitting to everybody
+             socket.emit('join', { room: room });
+         });
 
-      socket.on('message', (msg) => {
-        $('#messages').append($('<li>').text(msg));
-      })
-    </script>
-
+         socket.on('message', (msg) => {
+             $('#messages').append($('<li>').text(msg));
+         });
+        </script>
     <script>
 function myFunction() {
   var x = document.getElementById("myLinks");
