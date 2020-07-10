@@ -94,6 +94,10 @@
          socket.on('historyChats', (msg) => {
              // $('#messages').append($('<li>').text(msg));
              console.log(msg);
+
+             msg.forEach((val) => {
+              $('#messages').append($('<li>').text(val.chat_text));    
+             }) 
          });
         </script>
     <script>
