@@ -74,7 +74,7 @@ tech.on('connection', (socket) => {
         };
 
         let insert = db.insertChats(message);
-        tech.in(data.room).emit('message', message);
+        tech.in(data.room).emit('message', message.msg);
     });
 
     socket.on('disconnect', () => {
