@@ -49,5 +49,6 @@ const insertChats = (request) => {
 
 module.exports = {
     getChats,
-    insertChats
+    insertChats,
+    checkUser
 } 
