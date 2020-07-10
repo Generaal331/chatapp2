@@ -79,11 +79,15 @@
          });
 
          socket.on('connect', () => {
-             emitting to everybody
+          
              socket.emit('join', { room: room });
          });
 
          socket.on('message', (msg) => {
+             $('#messages').append($('<li>').text(msg));
+         });
+         
+         socket.on('singleMessage', (msg) => {
              $('#messages').append($('<li>').text(msg));
          });
         </script>
