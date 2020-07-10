@@ -49,7 +49,7 @@ tech.on('connection', (socket) => {
         socket.join(data.room);
 
         db.getChats(data.room).then( val => {
-            // console.log(val);
+            console.log(val);
             tech.to(socket.id).emit('historyChats',val);
 
             tech.in(data.room).emit('singleMessage', `${data.user} joined ${data.room} room!`);
