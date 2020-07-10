@@ -1,4 +1,4 @@
- CREATE TABLE chats (
+  CREATE TABLE chats (
      user_id SERIAL PRIMARY KEY,
      user_name VARCHAR(255),
      room VARCHAR(255),
@@ -56,4 +56,4 @@ const insertChats = (request) => {
 module.exports = {
     getChats,
     insertChats
-}
+} 
