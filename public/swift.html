@@ -62,26 +62,38 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script>
-      const room = 'javascript';
-      const socket = io('/tech');
-      $('form').submit(() => {
-        let msg = $('#m').val();
-        socket.emit('message', { msg, room });
-        $('#m').val('');
-        return false;
-      });
+      const room = 'swift';
+         const socket = io('/tech');
+        $('form').submit(() => {
+             let msg = $('#m').val();
+             socket.emit('message', { msg, room });
+             $('#m').val('');
+           return false;
+         });
 
-      socket.on('connect', () => {
-        // emiting to everybody
-        socket.emit('join', { room: room });
-      })
+         socket.on('connect', () => {
+          
+             socket.emit('join', { room: room });
+         });
 
-      socket.on('message', (msg) => {
-        $('#messages').append($('<li>').text(msg));
-      })
-    </script>
+         socket.on('message', (msg) => {
+             $('#messages').append($('<li>').text(msg));
+         });
+         
+         socket.on('singleMessage', (msg) => {
+             $('#messages').append($('<li>').text(msg));
+         });
 
-    <script>
+         socket.on('historyChats', (msg) => {
+             // $('#messages').append($('<li>').text(msg));
+             console.log(msg);
+
+             msg.forEach((val) => {
+              $('#messages').append($('<li>').text(val.chat_text));    
+             }) 
+         });
+        </script>
+        <script>
 function myFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
